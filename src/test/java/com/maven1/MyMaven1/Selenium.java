@@ -34,14 +34,29 @@ public class Selenium
 	  driver.findElement(By.id("day")).sendKeys("14");
 	  driver.findElement(By.id("month")).sendKeys("Nov");
 	  driver.findElement(By.id("year")).sendKeys("1986");
-	  driver.findElement(By.id("birthday-help")).click();
+	 
+	  // driver.findElement(By.id("birthday-help")).click();
+	 //driver.findElement(By.partialLinkText("Why do I need")).click();
+	  driver.findElement(By.partialLinkText("Why do I need to provide my date of birth?")).click();
+	 
 	  Thread.sleep(2000);
 	  driver.findElement(By.xpath("//a[contains (text(),'OK')]")).click();
+	  
+	  //driver.findElement(By.id("u_0_8")).click();
 	  Thread.sleep(2000);
-	  driver.findElement(By.id("u_0_8")).click();
+	  //driver.findElement(By.xpath("//input[@type='radio'][@value='2']")).click(); // relative path
+	  //driver.findElement(By.xpath("//input[@type='radio' and @value='2']")).click(); // relative path
+	  
+	  driver.findElement(By.cssSelector("input[type='radio'][value='2']")).click();
 	  //driver.findElement(By.className("_42ft _42fu layerCancel uiOverlayButton selected _42g-")).click();
 	  
 	  
+	  
+	 // driver.findElement(By.xpath("//button[@type='submit']")).click();
+	  driver.findElement(By.cssSelector("button[type='submit']")).click();
+	  
+	  
+	 
   }
   
 
