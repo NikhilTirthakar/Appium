@@ -48,7 +48,7 @@ public class Selenium
 	  //driver.findElement(By.xpath("//input[@type='radio' and @value='2']")).click(); // relative path
 	  
 	  driver.findElement(By.cssSelector("input[type='radio'][value='2']")).click();
-	  //driver.findElement(By.className("_42ft _42fu layerCancel uiOverlayButton selected _42g-")).click();
+	  driver.findElement(By.className("_42ft _42fu layerCancel uiOverlayButton selected _42g-")).click();
 	  
 	  
 	  

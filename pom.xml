@@ -27,6 +27,12 @@
     <artifactId>selenium-server</artifactId>
     <version>3.7.1</version>
 </dependency>
+<!-- pom.xml -->
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>3.1.1</version>
+</dependency>
 <!-- https://mvnrepository.com/artifact/org.testng/testng -->
 <dependency>
     <groupId>org.testng</groupId>

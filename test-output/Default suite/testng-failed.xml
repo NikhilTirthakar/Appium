@@ -3,15 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.maven1.MyMaven1.OrangeHRM">
+      <class name="com.maven1.MyMaven1.Selenium">
         <methods>
-          <include name="testtwo"/>
-          <include name="afterclass"/>
-          <include name="orangehrm"/>
-          <include name="testfour"/>
-          <include name="testthree"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="f"/>
         </methods>
-      </class> <!-- com.maven1.MyMaven1.OrangeHRM -->
+      </class> <!-- com.maven1.MyMaven1.Selenium -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
